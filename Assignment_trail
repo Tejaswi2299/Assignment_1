@@ -1,0 +1,19 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)//sorted list//
+l=len(ages)
+min=ages[0]// minimum age as the list is sorted
+max=ages[l-1]// maximum age as the list is sorted
+print("Minimum age:" ,min, "and Maximum age:",  max)
+ages.append(ages[0])// appending minimum age
+ages.append(ages[l-1])//appending maximum age
+print(ages)
+// Finding the median //
+if((len(ages)-1)%2==0):
+    median=ages[(len(ages)-1)/2]
+    print("The median  )
+
+
